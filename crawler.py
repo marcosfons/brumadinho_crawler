@@ -66,9 +66,13 @@ def organizeData():
     print(data)
     print(len(data))
 
-#download('http://www.vale.com/brasil/PT/aboutvale/servicos-para-comunidade/minas-gerais/atualizacoes_brumadinho/Documents/PDFs/290120192000.pdf', filename)
-#toImages(filename)
-#CutImages(filename)
-#ExtractText(filename)
+download('http://www.vale.com/brasil/PT/aboutvale/servicos-para-comunidade/minas-gerais/atualizacoes_brumadinho/Documents/PDFs/290120192000.pdf', filename)
+toImages(filename)
+CutImages(filename)
+ExtractText(filename)
 organizeData()
 
+
+
+# Format of result data
+# ['Nome', 'Category', 'Status', 'Hospital']
